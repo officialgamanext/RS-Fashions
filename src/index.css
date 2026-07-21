@@ -1,0 +1,30 @@
+/* ============================================
+   Bootstrap — MUST be first in the CSS bundle
+   so all component CSS overrides it correctly.
+   ============================================ */
+@import 'bootstrap/dist/css/bootstrap.css';
+
+/* ============================================
+   Swiper — imported once here centrally so it
+   appears before component-level CSS in the
+   production bundle (avoids ordering issues).
+   ============================================ */
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+
+/* ============================================
+   Global resets / base styles
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
