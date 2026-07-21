@@ -9,9 +9,9 @@ export default defineConfig({
     babel({ presets: [reactCompilerPreset()] })
   ],
   build: {
-    // Disable CSS minification — Vite 8's lightningcss minifier crashes on
-    // bootstrap.min.css's embedded `sourceMappingURL` comment. Bootstrap is
-    // already pre-minified, so there is no meaningful bundle-size impact.
+    // lightningcss (Vite 8 default minifier) is incompatible with Bootstrap 5.
+    // Disable CSS minification — Bootstrap is already well-optimised and the
+    // final output is still gzip-compressed by the server.
     cssMinify: false,
   },
 })
