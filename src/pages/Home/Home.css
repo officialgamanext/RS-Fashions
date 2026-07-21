@@ -1,0 +1,128 @@
+.home-page-view {
+  min-height: 100vh;
+}
+
+.features-inline-strip {
+  border-top: 1px solid #1c1c1c;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+@media (min-width: 992px) {
+  .feature-border {
+    border-right: 1px solid #1c1c1c;
+  }
+}
+.home-page-view {
+  min-height: 100vh;
+}
+
+/* This creates the combined viewport background space */
+.hero-fullscreen-wrapper {
+  background-repeat: no-repeat;
+  background-position: top right; /* Aligns the model image nicely relative to the navbar height */
+  background-size: cover; /* Change to 'contain' if you prefer the original height restrictions */
+  width: 100%;
+}
+
+.features-inline-strip {
+  border-top: 1px solid #1c1c1c;
+  border-bottom: 1px solid #1c1c1c;
+}
+
+@media (min-width: 992px) {
+  .feature-border {
+    border-right: 1px solid #1c1c1c;
+  }
+}
+/* Shift the container upward so it overlaps the bottom section of the hero fold */
+.features-floating-container {
+  margin-top: -45px;
+  margin-bottom: 40px;
+}
+
+/* The structural card configuration */
+.features-card-row {
+  background-color: #0c0c0c !important;
+  border: 1px solid #1a1a1a;
+  border-top: 2px solid #ffffff !important; /* Top stark white micro stroke line */
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.feature-column {
+  transition: background-color 0.3s ease;
+}
+
+.feature-column:hover {
+  background-color: #121212;
+}
+
+/* Icon customizations to match the gold medal/badge aesthetics */
+.feature-icon-outer i {
+  color: #dca72a !important;
+  font-size: 32px;
+  display: block;
+}
+
+.feature-text-block h6 {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  color: #e0e0e0;
+}
+
+.feature-text-block p {
+  font-size: 11px !important;
+  color: #777777 !important;
+}
+
+/* Clean column dividers between properties */
+@media (min-width: 992px) {
+  .border-end-divider {
+    border-right: 1px solid #1c1c1c !important;
+  }
+}
+/* White container section that creates the stark white background */
+.home-white-section {
+  background-color: #ffffff !important;
+  width: 100%;
+}
+
+/* Position the feature strip slightly overlapping the hero bottom fold */
+.features-floating-container {
+  margin-top: -35px;
+  margin-bottom: 20px;
+}
+
+.features-card-row {
+  background-color: #0c0c0c !important;
+  border: 1px solid #1a1a1a;
+  border-top: 2px solid #ffffff !important;
+  border-radius: 8px !important;
+  overflow: hidden;
+}
+
+.feature-icon-outer i {
+  color: #dca72a !important;
+  font-size: 28px;
+  display: block;
+}
+
+.feature-text-block h6 {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #e0e0e0;
+}
+
+.feature-text-block p {
+  font-size: 10px !important;
+  color: #777777 !important;
+}
+
+@media (min-width: 992px) {
+  .border-end-divider {
+    border-right: 1px solid #1c1c1c !important;
+  }
+}
+.home-white-section {
+  padding-bottom: 0px !important;
+}

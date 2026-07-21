@@ -1,0 +1,237 @@
+/* Section Background */
+.why-shop-wrapper {
+  background-color: #ffffff !important;
+}
+
+.section-title-main {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #333333 !important;
+}
+
+/* Font Size Helpers */
+.fs-7 { font-size: 11px; }
+.fs-8 { font-size: 10px; }
+
+/* Testimonials Card (Matching grey box styling) */
+.testimonial-card {
+  background-color: #cccccc !important;
+  border-radius: 2px;
+  min-height: 120px;
+}
+
+.stars-box i {
+  font-size: 13px;
+  margin: 0 1px;
+}
+
+.testimonial-text {
+  font-size: 11px;
+  margin: 0;
+  line-height: 1.4;
+  color: #444444 !important;
+}
+
+.testimonial-author {
+  font-size: 11px;
+  color: #555555 !important;
+}
+
+/* Side Slider Buttons */
+.testimonial-prev-btn,
+.testimonial-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background-color: #b0b0b0;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.testimonial-prev-btn {
+  left: -10px;
+}
+
+.testimonial-next-btn {
+  right: -10px;
+}
+
+.testimonial-prev-btn:hover,
+.testimonial-next-btn:hover {
+  background-color: #888888;
+}
+
+
+/* Container Wrapper for Both Sections */
+.why-shop-wrapper {
+  background-color: #f5f5f5 !important; /* Matches the soft light grey background */
+  width: 100%;
+}
+
+.section-title-main {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #333333 !important;
+}
+
+/* Typography Sizes */
+.fs-7 { 
+  font-size: 11px; 
+  color: #222222 !important;
+}
+
+.fs-8 { 
+  font-size: 10px; 
+  color: #888888 !important;
+}
+
+/* Testimonial Cards (Slightly darker grey box) */
+.testimonial-card {
+  background-color: #cccccc !important;
+  border-radius: 2px;
+  min-height: 120px;
+}
+
+.stars-box i {
+  font-size: 13px;
+  margin: 0 1px;
+}
+
+.testimonial-text {
+  font-size: 11px;
+  margin: 0;
+  line-height: 1.4;
+  color: #555555 !important;
+}
+
+.testimonial-author {
+  font-size: 11px;
+  color: #666666 !important;
+}
+
+/* Side Slider Arrows */
+.testimonial-prev-btn,
+.testimonial-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background-color: #b8b8b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.testimonial-prev-btn {
+  left: -10px;
+}
+
+.testimonial-next-btn {
+  right: -10px;
+}
+
+.testimonial-prev-btn:hover,
+.testimonial-next-btn:hover {
+  background-color: #999999;
+}
+
+
+/* Card Sections with distinct background and rounded borders */
+.why-shop-card,
+.testimonials-card {
+  background-color: #f5f5f5 !important; /* Light grey box background */
+  border-radius: 4px;
+}
+
+.section-title-main {
+  font-size: 15px;
+  letter-spacing: 0.8px;
+  color: #333333 !important;
+}
+
+/* Typography Sizes */
+.fs-7 { 
+  font-size: 11px; 
+  color: #222222 !important;
+}
+
+.fs-8 { 
+  font-size: 10px; 
+  color: #888888 !important;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+  background-color: #cccccc !important;
+  border-radius: 2px;
+  min-height: 120px;
+}
+
+.stars-box i {
+  font-size: 13px;
+  margin: 0 1px;
+}
+
+.testimonial-text {
+  font-size: 11px;
+  margin: 0;
+  line-height: 1.4;
+  color: #555555 !important;
+}
+
+.testimonial-author {
+  font-size: 11px;
+  color: #666666 !important;
+}
+
+/* Side Slider Arrow Buttons */
+.testimonial-prev-btn,
+.testimonial-next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background-color: #b8b8b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.testimonial-prev-btn {
+  left: -10px;
+}
+
+.testimonial-next-btn {
+  right: -10px;
+}
+
+.testimonial-prev-btn:hover,
+.testimonial-next-btn:hover {
+  background-color: #999999;
+}

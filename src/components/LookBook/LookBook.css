@@ -1,0 +1,27 @@
+.lookbook-card {
+  height: 280px;
+  background-color: #0c0c0c;
+}
+
+.lookbook-img {
+  transition: transform 0.4s ease;
+}
+
+.lookbook-card:hover .lookbook-img {
+  transform: scale(1.04);
+}
+
+.lookbook-gradient-overlay {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.4) 60%, transparent 100%);
+  z-index: 2;
+}
+
+.lookbook-card-title {
+  font-size: 13px;
+  letter-spacing: 0.8px;
+}
+
+.lookbook-card-sub {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+.hero-slider-wrapper {
+  height: 90vh;
+  min-height: 600px;
+  background-color: transparent !important;
+}
+
+.hero-slide {
+  height: 100%;
+  position: relative;
+  padding-left: 5%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent !important;
+}
+
+.diagonal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 35%, rgba(0,0,0,0) 65%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hero-content-box {
+  margin-top: 50px;
+}
+
+.hero-content-box h2 {
+  letter-spacing: 1px;
+  line-height: 1.1;
+}
+
+.hero-content-box .cursive-subtext {
+  font-family: 'Caveat', cursive;
+  color: #dca72a;
+  text-transform: none;
+  font-size: 1.1em;
+  margin-top: 5px;
+}
+
+.hero-content-box p {
+  color: #e0e0e0 !important;
+  font-weight: 400;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.btn-gold {
+  background-color: #dca72a !important;
+  color: #000000 !important;
+  font-size: 12px;
+  font-weight: 700 !important;
+  border-radius: 0;
+  padding: 14px 30px !important;
+  border: none !important;
+  transition: all 0.3s;
+}
+
+.btn-gold:hover {
+  background-color: #c59320 !important;
+}
+
+.btn-outline-border {
+  border: 1px solid #333;
+  background-color: transparent;
+  font-size: 12px;
+  border-radius: 0;
+  transition: all 0.3s;
+}
+
+.btn-outline-border:hover {
+  border-color: #fff;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.custom-arrow {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s;
+}
+
+.custom-arrow:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.custom-arrow-left { 
+  left: 25px; 
+}
+
+.custom-arrow-right { 
+  right: 25px; 
+}
+
+.collection-floating-box {
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+  border: 1px solid #dca72a;
+  background: transparent !important;
+  background-color: transparent !important;
+  backdrop-filter: none !important;
+  z-index: 3;
+}
+
+.collection-floating-box span {
+  color: #8D8C8B !important;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 3px !important;
+}
+
+.collection-floating-box a {
+  color: #909090 !important;
+  transition: color 0.3s ease;
+}
+
+
+
+
+
+/* only background change remove if dont want this */
+.hero-slide-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-content-layer {
+  pointer-events: none;
+}
+
+.hero-content-layer button,
+.hero-content-layer a {
+  pointer-events: auto;
+}

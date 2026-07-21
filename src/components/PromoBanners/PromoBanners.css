@@ -1,0 +1,146 @@
+.fs-7 { font-size: 11px; }
+.fs-9 { font-size: 8.5px; }
+
+/* Base Card Styling */
+.promo-card {
+  background-color: #0c0c0c !important;
+  border: 1px solid #1a1a1a !important;
+  height: 260px;
+}
+
+.promo-gold-title {
+  color: #c89524 !important;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+
+.promo-sub-label {
+  font-size: 10px;
+  letter-spacing: 0.5px;
+}
+
+.promo-big-number {
+  font-size: 38px;
+  line-height: 1;
+  letter-spacing: -0.5px;
+}
+
+.promo-title-extra {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* Gold Solid Button */
+.btn-gold-solid {
+  background-color: #dca72a !important;
+  color: #000000 !important;
+  font-size: 11px;
+  padding: 8px 18px;
+  letter-spacing: 0.5px;
+}
+
+/* Coupon Box */
+.coupon-border-box {
+  border: 1px solid #c89524;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.coupon-code-text {
+  color: #c89524;
+  font-size: 11px;
+  letter-spacing: 0.8px;
+}
+
+/* Card 1 & 2 Background Model Setup */
+.promo-model-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 65%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+  z-index: 1;
+}
+
+.sports-model {
+  background-image: linear-gradient(to right, #0c0c0c 25%, rgba(12, 12, 12, 0) 100%), url('https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=600');
+}
+
+.prepaid-model {
+  background-image: linear-gradient(to right, #0c0c0c 25%, rgba(12, 12, 12, 0) 100%), url('https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=600');
+}
+
+/* Right Gold Striped Pattern overlay for Card 2 */
+
+
+/* Card 3 Specific Styles */
+.features-col {
+  max-width: 55%;
+}
+
+.feature-badge-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c89524;
+  font-size: 18px;
+}
+
+/* Transparent Stacked Hoodies PNG Image */
+.stacked-hoodies-png {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 155px;
+  height: 200px;
+  background-image: url('https://png.pngtree.com/png-clipart/20230508/original/pngtree-folded-hoodie-mockup-png-image_9151528.png'); /* Stacked clothes PNG style */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+/* Full-Width White Section Background */
+/* Ensure the promo banners wrapper doesn't force a black background */
+.promo-banners-wrapper {
+  background-color: transparent !important;
+}
+
+.promo-card {
+  background-color: #0c0c0c !important;
+  border: 1px solid #1a1a1a !important;
+  height: 260px;
+}
+/* Card 3 Content Column Width */
+.features-col {
+  max-width: 55%;
+}
+
+/* Stacked Image Container for Card 3 */
+.stacked-hoodies-img-wrapper {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  height: 85%;
+  overflow: hidden;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.stacked-hoodies-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+.text-custom-grey {
+  color: #717070 !important;
+}

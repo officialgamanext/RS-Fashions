@@ -1,0 +1,55 @@
+.section-header-title {
+  font-size: 16px;
+  letter-spacing: 0.8px;
+  color: #222222 !important;
+}
+
+.view-all-link {
+  color: #777777 !important;
+  font-size: 11px;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+}
+
+.view-all-link:hover {
+  color: #000000 !important;
+}
+
+/* Force 8 items evenly spaced in a single row */
+.category-single-row {
+  gap: 12px;
+  overflow-x: auto; /* Adds smooth horizontal scrolling on mobile screens */
+  scrollbar-width: none; /* Hide scrollbar for clean look */
+}
+
+.category-single-row::-webkit-scrollbar {
+  display: none;
+}
+
+.category-col-item {
+  flex: 1 0 11.5%; /* Calculates ~8 items across 100% width */
+  min-width: 85px;  /* Prevents avatars from shrinking too much on smaller screens */
+}
+
+/* Avatar Circle Styling */
+.category-circle-avatar {
+  width: 82px;
+  height: 82px;
+  background-color: #f2f2f2;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.category-card-item:hover .category-circle-avatar {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.category-title-text {
+  font-size: 10px;
+  color: #888888;
+  letter-spacing: 0.5px;
+}
+
+.category-card-item:hover .category-title-text {
+  color: #000000;
+}

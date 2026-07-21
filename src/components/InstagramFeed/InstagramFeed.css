@@ -1,0 +1,54 @@
+/* Outer Dark Card Box */
+.instagram-card-box {
+  background-color: #0c0c0c !important;
+  border: 1px solid #1c1c1c;
+}
+
+.section-title {
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+/* Gold Accent Text */
+.insta-handle-text {
+  color: #c89524 !important;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+}
+
+/* Single Image Banner Styling */
+.single-insta-banner-wrapper {
+  width: 100%;
+  height: 180px;
+  background-color: #1a1a1a;
+}
+
+.single-insta-banner-img {
+  height: 100%;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+.single-insta-banner-wrapper:hover .single-insta-banner-img {
+  transform: scale(1.02);
+}
+
+/* Gold Outlined Button */
+.btn-insta-gold {
+  border: 1px solid #c89524 !important;
+  background-color: transparent !important;
+  color: #c89524 !important;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.btn-insta-gold:hover {
+  background-color: #c89524 !important;
+  color: #000000 !important;
+}
+.instagram-section-wrapper {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
