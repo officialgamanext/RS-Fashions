@@ -1,7 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+// ⚠️ Bootstrap CSS must be the FIRST JS import so it appears at the
+// top of the production CSS bundle, before any component CSS.
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import App from './App.jsx'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js' // Bootstrap JS (CSS imported via index.css)
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
