@@ -1,8 +1,7 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
+// Swiper CSS imported centrally in index.css
 import './NewArrivals.css';
 import img1 from '../../assets/NewArrivalsImages/NewArrivals1.png';
 import img2 from '../../assets/NewArrivalsImages/NewArrivals2.png';

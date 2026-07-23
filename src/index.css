@@ -1,0 +1,19 @@
+/* ============================================
+   Global resets / base styles
+   NOTE: All third-party CSS (Bootstrap, Swiper)
+   is imported in main.jsx to guarantee correct
+   bundle order in production.
+   ============================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}

@@ -97,6 +97,13 @@ div.Navbar-Header.is-home .navbar-collapse {
   padding-bottom: 4px;
 }
 
+/* ================================================
+   Icon utilities
+   ================================================ */
+.header-utilities a {
+  color: #ffffff !important;
+}
+
 /* Utilities Badge */
 .badge-count {
   background-color: #dca72a;

@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
-import 'swiper/css';
-import 'swiper/css/navigation';
+// Swiper CSS imported centrally in index.css
 import './homeHeroSection.css';
 
 // Import local hero images
