@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import { ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
@@ -13,7 +14,6 @@ import myHeroModel2 from "../../assets/HeroSectionImages/MyHero2.jpg";
 const HomeHeroSection = () => {
   return (
     <section className="hero-slider-wrapper position-relative w-100 overflow-hidden">
-      
       {/* Background Image Swiper Slider */}
       <Swiper
         modules={[Navigation]}
@@ -28,7 +28,7 @@ const HomeHeroSection = () => {
       >
         {/* Background Slide 1 */}
         <SwiperSlide>
-          <div 
+          <div
             className="hero-slide-bg w-100 h-100"
             style={{ backgroundImage: `url(${myHeroModel1})` }}
           />
@@ -36,7 +36,7 @@ const HomeHeroSection = () => {
 
         {/* Background Slide 2 */}
         <SwiperSlide>
-          <div 
+          <div
             className="hero-slide-bg w-100 h-100"
             style={{ backgroundImage: `url(${myHeroModel2})` }}
           />
@@ -55,15 +55,25 @@ const HomeHeroSection = () => {
               <span className="cursive-subtext d-block">Live In Comfort</span>
             </h2>
             <p className="text-muted fs-6 tracking-wide mt-3 mb-4">
-              Premium quality, Modern design<br />Made for every move you make.
+              Premium quality, Modern design<br />
+              Made for every move you make.
             </p>
+            
             <div className="d-flex flex-wrap gap-3">
-              <button className="btn btn-gold text-uppercase d-flex align-items-center gap-2 px-4 py-3 fw-semibold">
+              {/* Updated Shop Now Button to navigate to /shop */}
+              <Link 
+                to="/shop" 
+                className="btn btn-gold text-uppercase d-flex align-items-center gap-2 px-4 py-3 fw-semibold text-decoration-none"
+              >
                 Shop Now <ArrowRight size={16} />
-              </button>
-              <button className="btn btn-outline-border text-uppercase px-4 py-3 fw-semibold text-white">
+              </Link>
+              
+              <Link 
+                to="/collections" 
+                className="btn btn-outline-border text-uppercase px-4 py-3 fw-semibold text-white text-decoration-none"
+              >
                 Explore Collection
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -73,7 +83,9 @@ const HomeHeroSection = () => {
       <div className="collection-floating-box text-center p-4">
         <span className="text-muted text-uppercase tracking-widest d-block mb-1">New Collection</span>
         <h3 className="text-white fw-bold display-6 mb-2">2024</h3>
-        <a href="#" className="text-white text-uppercase tracking-wider fw-semibold text-decoration-underline small">Discover How</a>
+        <Link to="/collections" className="text-white text-uppercase tracking-wider fw-semibold text-decoration-underline small">
+          Discover How
+        </Link>
       </div>
 
       {/* Slide Arrow Navigation Triggers */}
@@ -83,7 +95,6 @@ const HomeHeroSection = () => {
       <button className="custom-arrow custom-arrow-right position-absolute top-50 translate-middle-y z-3 rounded-circle d-flex align-items-center justify-content-center">
         <ChevronRight size={20} />
       </button>
-
     </section>
   );
 };
